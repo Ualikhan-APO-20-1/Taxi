@@ -4,6 +4,7 @@ import random
 # Создаем окно
 root = tk.Tk()
 root.title("Заказ такси")
+root.geometry("400x450")
 
 # Создаем метку для ввода адреса назначения
 label_destination = tk.Label(root, text="Введите адрес назначения:")
